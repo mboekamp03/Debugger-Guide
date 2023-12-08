@@ -3,17 +3,17 @@
   "title": "factorial",
   "steps": [
     {
-      "file": "debug/Debugger-Guide/example/factorial.py",
+      "file": "example/factorial.py",
       "description": "Lets start off with a recursive function to calculate the factorial of a number. We have the base case to unwind the function and then we have the recursive call. Will the base case ever be hit?",
       "line": 1
     },
     {
-      "file": "debug/Debugger-Guide/example/factorial.py",
+      "file": "example/factorial.py",
       "description": "Now we have a function to determine if the user input is a valid number. If it is, then the number is returned. If not, then there is an error and the user is prompted again.",
       "line": 7
     },
     {
-      "file": "debug/Debugger-Guide/example/factorial.py",
+      "file": "example/factorial.py",
       "description": "Now we call the functions above to get the factorial and print the output.",
       "line": 14
     }

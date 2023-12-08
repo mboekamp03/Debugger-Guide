@@ -3,22 +3,22 @@
   "title": "add",
   "steps": [
     {
-      "file": "debug/Debugger-Guide/example/add.py",
+      "file": "example/add.py",
       "description": "Lets make a quick function to add two numbers. It will take in the two numbers to add and then return the sum. Notice anything different about it?",
       "line": 1
     },
     {
-      "file": "debug/Debugger-Guide/example/add.py",
+      "file": "example/add.py",
       "description": "Now, lets make a quick function to print the output.",
       "line": 5
     },
     {
-      "file": "debug/Debugger-Guide/example/add.py",
+      "file": "example/add.py",
       "description": "Now lets declare the variables to run this program with. We'll use some small ones to keep the simplicity.",
       "line": 9
     },
     {
-      "file": "debug/Debugger-Guide/example/add.py",
+      "file": "Debugger-Guide/example/add.py",
       "description": "Now lets call the functions we made to get the sum and print the output.",
       "line": 11
     }
