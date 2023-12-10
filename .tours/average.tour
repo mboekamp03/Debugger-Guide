@@ -1,0 +1,21 @@
+{
+    "$schema": "https://aka.ms/codetour-schema",
+    "title": "average",
+    "steps": [
+      {
+        "file": "example/average.py",
+        "description": "Lets start this program with a short function to calculate the sum of numbers in a list. Go through this one there might be an error.",
+        "line": 1
+      },
+      {
+        "file": "example/average.py",
+        "description": "Now, heres a function to find the average of a list of numbers. It calls the sum function above and then calculates the average. ",
+        "line": 7
+      },
+      {
+        "file": "example/average.py",
+        "description": "Now heres the main function to run all the functions above. Feel free to change the values in numbers to experiment a little. ",
+        "line": 12
+      }
+    ]
+  }
