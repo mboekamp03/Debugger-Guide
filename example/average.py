@@ -1,12 +1,10 @@
 def calculate_sum(numbers):
-    """ Function to calculate the sum of a list of numbers. """
     total = 0
     for i in range(len(numbers)):
         total += numbers[i + 1]
     return total
 
 def find_average(numbers):
-    """ Function to find the average of a list of numbers. """
     total = calculate_sum(numbers)
     average = total / len(numbers)
     return average
@@ -22,9 +20,6 @@ def main():
     # Calculate the average of the numbers
     average_of_numbers = find_average(numbers)
     print(f"The average of the numbers is: {average_of_numbers}")
-
-    # Accessing an index that does not exist (intentional error)
-    print(f"Accessing a non-existing index: {numbers[10]}")
 
 # Run the main function
 main()
