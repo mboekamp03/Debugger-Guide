@@ -1,5 +1,4 @@
 # Program Description
-#/private/var/folders/2m/63z2yfbs6v53xprnyw4t99qc0000gn/T/AppTranslocation/DCCD4B37-38E3-4121-B9DE-C0DBFA79C9B6/d/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html -------------------
 # The airline schedule program involves taking in data from the file flights.csv and then sorting this data into lists.
 # From there, the user will have a list options to choose to output their desired information.
 # After the user enters input, the program will execute the correct option and output information in either the terminal or in a new file.
@@ -30,9 +29,6 @@ def openFile():
         except IOError:
             print("Invalid filename try again ...")
 
-
-        # fname = "flights.csv"
-        # flights = open(fname,'r')
     return flights
 
 # Function to use an open file and add the data within it to lists
@@ -499,5 +495,6 @@ def main():
             choice = getChoice()
     else:
         print("Thank you for flying with us")
+
 
 main()
