@@ -1,0 +1,87 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "airline",
+  "steps": [
+    {
+      "file": "example/airline.py",
+      "description": "Now lets go through a longer file. This is my CSC 110 final project and it's more complex than the other programs in this guide but it is still very simple. There's a few issues, good luck finding them!",
+      "line": 1
+    },
+    {
+      "file": "example/airline.py",
+      "description": "Heres a simple function to open a file. I commented the user input part so we can open the file and test the rest of the code.",
+      "line": 22
+    },
+    {
+      "file": "example/airline.py",
+      "description": "This function intializes all the lists with airline data. It calls openFile and returns all the lists.",
+      "line": 39
+    },
+    {
+      "file": "example/airline.py",
+      "description": "Now let's reformat the start/end time of a flight. ",
+      "line": 73
+    },
+    {
+      "file": "example/airline.py",
+      "description": "These next two functions change the formatted string from the file to something usable for calculations and then reverts it back when printing output. Don't worry, there are no errors here.",
+      "line": 89
+    },
+    {
+      "file": "example/airline.py",
+      "description": "Now, lets sort the lists. This is a very simple sorting algorithm and it should be easy to follow. Do you see any issues with this one?",
+      "line": 111
+    },
+    {
+      "file": "example/airline.py",
+      "description": "This function allows users to enter in an Airline and then a flight number to search for a flight. It's a simple function, do you see any issues with it?",
+      "line": 133
+    },
+    {
+      "file": "example/airline.py",
+      "description": "Now, this function lets the users determine the maximum duration they are willing to fly. Don't worry, this function also has no errors. Feel free to use step over to ssave yourself some time when debugging and to get more comfortable using the major actions of a debugger.",
+      "line": 177
+    },
+    {
+      "file": "example/airline.py",
+      "description": "This function determines the cheapeast flight from a given airline. Look closely and you'll likely see an error or two. Also, if you havent noticed by now, this code has a good amount of solid comments, use them to try and figure out whats going on if you are confused.",
+      "line": 219
+    },
+    {
+      "file": "example/airline.py",
+      "description": "Now we are going to determine if a time is valid. Reminder, times are entered into this function fornatted as follows: XX:XX. Check to see if everything makes sense given this format.",
+      "line": 265
+    },
+    {
+      "file": "example/airline.py",
+      "description": "Now lets find all flights after a time has been entered. Check to make sure the correct error message is being printed out each time. The first error message that should be printed is \"Enter earliest departure time: \". Any after this should say \"Invalid time - Try again \". Make sure this is what happens.",
+      "line": 290
+    },
+    {
+      "file": "example/airline.py",
+      "description": "Here we'll calculate the average price. No errors here, feel free to use step over again.",
+      "line": 342
+    },
+    {
+      "file": "example/airline.py",
+      "description": "Once again, no errors here.",
+      "line": 360
+    },
+    {
+      "file": "example/airline.py",
+      "description": "The next two functions prompt the user for a choice and determine if that choice is valid. There is one small issue here, good luck finding it.",
+      "line": 376
+    },
+    {
+      "file": "example/airline.py",
+      "description": "Here is the main function that starts the process of running this program. No errors here!",
+      "line": 417
+    },
+    {
+      "file": "example/airline.py",
+      "description": "One last reminder, this program requires a lot of input so use the integrated terminal. Read through the code tol understand what the input should be. Also look at the file so you know what outputs to expecyt. Good luck debugging!",
+      "line": 500
+    }
+  ],
+  "ref": "24ec0f571e8eb5f0b9a1e51482043226a301fd87"
+}
