@@ -1,7 +1,7 @@
 # Virtual Studio Code Debugger Guide
 
 This step-by-step guide will take you though Virtual Studio (VS) code setup to getting used to this powerful tool.
-The hope is by the time you have finished reading thi, you will be able to find and fix bugs in your code efficiently.
+The hope is by the time you have finished reading this, you will be able to find and fix bugs in your code efficiently.
 
 ## Setup
 
