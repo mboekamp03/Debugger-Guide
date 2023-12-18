@@ -1,21 +1,26 @@
 {
-    "$schema": "https://aka.ms/codetour-schema",
-    "title": "average",
-    "steps": [
-      {
-        "file": "example/average.py",
-        "description": "Lets start this program with a short function to calculate the sum of numbers in a list. Go through this one there might be an error.",
-        "line": 1
-      },
-      {
-        "file": "example/average.py",
-        "description": "Now, heres a function to find the average of a list of numbers. It calls the sum function above and then calculates the average. ",
-        "line": 7
-      },
-      {
-        "file": "example/average.py",
-        "description": "Now heres the main function to run all the functions above. Feel free to change the values in numbers to experiment a little. ",
-        "line": 12
-      }
-    ]
-  }
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "average",
+  "steps": [
+    {
+      "file": "example/average.py",
+      "description": "Lets start this program with a short function to calculate the sum of numbers in a list. Go through this one there might be an error. To check all the values, lets put a breakpoint in. The best spot to do this is on line 4 where total is being increased.",
+      "line": 2
+    },
+    {
+      "file": "example/average.py",
+      "description": "Now, heres a function to find the average of a list of numbers. It calls the sum function above and then calculates the average. ",
+      "line": 8
+    },
+    {
+      "file": "example/average.py",
+      "description": "Now heres the main function to run all the functions above. Feel free to change the values in numbers to experiment a little. ",
+      "line": 13
+    },
+    {
+      "file": "example/average.py",
+      "description": "So, lets go through how to debug this program. The first thing we are going to do is place breakpoints. A few good places to put them are at the start of all three functions and then on line 4. Why line 4? Because this is where total is being increased. Placing a break point here is the easiest way to see the value changes as they occur to understand what could go wrong. Now that you have the break points set, run the debugger.\n\nNow that we are running the debugger, you'll notice we start at the top and the main function is called at the end of the program. The debugger will run through the code until main is hit then it will begin to actually calculate. To save yourself a few moments, you can use step over to jump from break point to breakpoint until finally hitting the main function call. Now, you'll be taken to the calculate sum function which you will want to step into. From here, you'll notice you are httting the breakpoint on line 4. Take note of the values each time and press continue to continue running the code. Soon, you should find yourself getting an error that the list index is out of range. After looking at the values of total each time, can you figure out where the issue is?",
+      "line": 24
+    }
+  ]
+}

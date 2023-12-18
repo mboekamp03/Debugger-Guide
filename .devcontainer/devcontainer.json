@@ -2,14 +2,14 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/universal
 {
     "name": "Python Development",
-    "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+    "image": "mcr.microsoft.com/devcontainers/python:0-3.11",
     "customizations": {
         "vscode": {
             "extensions": [
                 "ms-python.python",
-                "ms-python.vscode-pylance",
                 "GitHub.copilot",
-                "GitHub.copilot-chat"
+                "GitHub.copilot-chat",
+                "vsls-contrib.codetour"
             ]
         }
     },

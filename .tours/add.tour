@@ -14,12 +14,12 @@
     },
     {
       "file": "example/add.py",
-      "description": "Now lets declare the variables to run this program with. We'll use some small ones to keep the simplicity.",
+      "description": "Now lets declare the variables to run this program with. We'll use some small ones to keep the simplicity. ",
       "line": 9
     },
     {
-      "file": "Debugger-Guide/example/add.py",
-      "description": "Now lets call the functions we made to get the sum and print the output.",
+      "file": "example/add.py",
+      "description": "To debug this, lets break apart the code to determine where the error could be. Placing a break point here, on line 11, will help you view what number1 and number2 are before they are passed into the function. Then, another spot to put one is on line 2 to view the values of a and c before they are added. ",
       "line": 11
     }
   ]
